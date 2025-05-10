@@ -1,7 +1,9 @@
-
 import React from 'react';
+import { useArticles } from '../utils/articleUtil';
+import ArticlePreview from '../components/ArticlePreview';
 
-const Home: React.FC = () => {
+function Home() {
+    const { articles, loading } = useArticles();
 
     return (
         <div className="drawer">
@@ -63,7 +65,10 @@ const Home: React.FC = () => {
                                 </div>
                             </div>
                             {/* Article Section */}
-                            <div>
+                            <div className="flex flex-col m-0.5 p-1 border-1">
+                                {!loading && articles.map(article => (
+                                    <ArticlePreview key={article.slug} article={article} />
+                                ))}
                             </div>
                         </div>
                     </div>

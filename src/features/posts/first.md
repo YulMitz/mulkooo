@@ -1,10 +1,16 @@
 ---
-title: "My First Post"
-description: "This is the description of my first post."
-date: "2025-05-03"
+title: Awesome Title
+description: Describe this awesome content
+date: "2025-05-04"
+excerpt: Preview of the first post
+thumbnail: "assets/article/thumbnails/nj_header1.jpg"
+tags:
+  - "llm"
+  - "linux"
+  - "trading"
 slug: "the-first-post"
 ---
 
-## Hello World!
+# This is awesome
 
-This is the content of my first post.
+Vite is an opinionated web dev build tool that serves your code via native ES Module imports during dev and bundles it with Rollup for production.
