@@ -1,7 +1,7 @@
 
 function Sidebar() {
     return (
-      <div className="flex flex-col w-[350px] m-2">
+      <div className="flex flex-col w-[350px] m-2 border-2">
         {/* Profile/Editting Section */}
         <div className="flex p-2 border-b w-full min-h-20 h-[12%] m-2">
         </div>
