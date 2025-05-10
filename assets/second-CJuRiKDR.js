@@ -1,0 +1,3 @@
+import{R as e}from"./index-CezjXYK9.js";const c={title:"My Second Post",description:"This is the description of my second post.",date:"2025-05-05",excerpt:"Preview of the second post",thumbnail:"assets/article/thumbnails/nj_header2.jpg",tags:["llm","5g","RAG","b5g","deep learning","NLP"],slug:"the-second-post"},l=`<h2>Hello World!</h2>
+<p>This is the content of my second post.</p>
+`,i=function(t){return Object.keys(t).forEach(function(n){t[n]}),e.createElement("div",null,e.createElement("h2",null,"Hello World!"),e.createElement("p",null,"This is the content of my second post."))};export{i as ReactComponent,c as attributes,l as html};
