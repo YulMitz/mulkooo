@@ -6,11 +6,7 @@ import { plugin as mdPlugin, Mode } from 'vite-plugin-markdown';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    react({
-      babel: {
-        presets: ['@babel/preset-react']
-      }
-    }),
+    react(),
     tailwindcss(),
     mdPlugin({mode : [Mode.HTML, Mode.REACT]}),
   ],
